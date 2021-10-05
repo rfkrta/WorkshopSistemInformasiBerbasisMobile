@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tugas Mobile Aplication"
+        android:textSize="25dp"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/butt1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50sp"
+        android:text="List View"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/butt2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:text="Spinner"
+        android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/butt3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="150dp"
+            android:text="Auto Complete"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/butt4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="195dp"
+            android:text="Recycler View"
+            android:textSize="10sp" />
+
+
+
+
+</RelativeLayout>
